@@ -1,0 +1,43 @@
+{
+  "name": "using-preact",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "@types/react": "^17.0.14",
+    "@types/react-sound": "^1.2.3",
+    "@types/wicg-mediasession": "^1.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^6.8.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.2",
+    "@prefresh/next": "^1.4.6",
+    "classnames": "2",
+    "flair-kit": "^0.0.4",
+    "goober": "2",
+    "iconic-react": "^1.0.3",
+    "next": "^11.0.1",
+    "next-offline": "^5.0.5",
+    "next-plugin-preact": "^3.0.6",
+    "preact": "^10.5.14",
+    "preact-render-to-string": "^5.1.19",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.1.2"
+  },
+  "license": "MIT"
+}
